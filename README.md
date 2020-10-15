@@ -1,9 +1,20 @@
 # Sinatra Introduction
 
 ## Part 1: Conceptual questions
-1. What's a web framework?
+
+1. What's a web framework? 
+A mechanism to make dynamic web applications 
+Dynamic - data changes not a static website 
+Libraries of pre-written methods 
+
 2. What's MVC? Describe the division of responsibility of each component.
+Model - series of classes models after real world objects (ie. listings and buying), interfacing with the database to make queries on behalf of the listings class and vice versa, using an ORM (object relational mapper) 
+View - Front facing area where user interacts: presents data
+Controller - interface between Model and View; routes data 
+
 3. What are the two main type of HTTP requests we can send?
+GET - reading data from the database 
+POST - create, update, destroy 
 
 ## Part 2: Coding Challenge - Building a Sinatra Application
 * A tea-brewing shop asks you to build them a web application that lets their customers place orders online. You choose Sinatra as your web framework because you know the application will be relatively simple and you don't need the bells and whistles of larger frameworks like Rails. Get started building the app by accomplishing the following:
